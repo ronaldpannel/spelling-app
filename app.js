@@ -34,7 +34,7 @@ getWordBtn.addEventListener('click', function(){
 
     speech.text = 'your word is  ' + randomWord
     speech.pitch = 1
-    speech.lang = 'en-GB'
+    speech.lang = 'en-US'
     speech.volume = 1
     speech.rate = 0.85
     window.speechSynthesis.speak(speech)
