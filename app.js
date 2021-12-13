@@ -18,7 +18,7 @@ var speech = new SpeechSynthesisUtterance()
 checkBtn.addEventListener('click', function(){
     var input = document.getElementById('input').value
     var wordCheck = ','+ randomWord.split('')
-    if(input == randomWord){
+    if(input.toLowerCase() == randomWord.toLowerCase()){
         speech.text = 'You are correct'
         speech.rate = 0.85
     } else if(
