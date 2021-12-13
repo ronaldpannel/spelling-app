@@ -32,7 +32,7 @@ checkBtn.addEventListener('click', function(){
 getWordBtn.addEventListener('click', function(){
     var input = document.getElementById('input').value
 
-    speech.text = 'your word is' + randomWord
+    speech.text = 'your word is  ' + randomWord
     speech.pitch = 1
     speech.lang = 'en-US'
     speech.volume = 1
